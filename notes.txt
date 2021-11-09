@@ -1,0 +1,4 @@
+code = git commit   (type "i" to begin intializing, initial commit, :wq
+
+
+
