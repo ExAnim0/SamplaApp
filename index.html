@@ -9,9 +9,113 @@
 </head>
 
 <body>
-  touch index.html ( added file ) ,
 
-  initialize empty git repo (git init)
+  Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs
+  $ touch index.html
+
+  Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs
+  $ touch app.js
+
+  Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs
+  $ git init
+  Initialized empty Git repository in C:/Users/Fncso/Desktop/programs/.git/
+
+  Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+  $ git config --global user.name 'Francisco Dejesus'
+
+  Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+  $ git config --global user.email 'Frankienkd@gmail.com'
+
+  Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+  $ git add index.html
+
+  Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+  $ git status
+  On branch master
+
+  No commits yet
+
+  Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+    new file: index.html
+
+    Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+      app.js
+
+
+      Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+      $ git rm --cached index.html
+      rm 'index.html'
+
+      Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+      $ git status
+      On branch master
+
+      No commits yet
+
+      Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+        app.js
+        index.html
+
+        nothing added to commit but untracked files present (use "git add" to track)
+
+        Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+        $ git add *.html
+
+        Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+        $ git rm --cached index.html
+        rm 'index.html'
+
+        Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+        $ git add .
+
+        Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+        $ git status
+        On branch master
+
+        No commits yet
+
+        Changes to be committed:
+        (use "git rm --cached <file>..." to unstage)
+          new file: app.js
+          new file: index.html
+
+
+          Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+          $ git status
+          On branch master
+
+          No commits yet
+
+          Changes to be committed:
+          (use "git rm --cached <file>..." to unstage)
+            new file: app.js
+            new file: index.html
+
+            Changes not staged for commit:
+            (use "git add <file>..." to update what will be committed)
+              (use "git restore <file>..." to discard changes in working directory)
+                modified: index.html
+
+
+                Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+                $ git add .
+
+                Fncso@LAPTOP-S08S1DLC MINGW64 ~/Desktop/programs (master)
+                $ git status
+                On branch master
+
+                No commits yet
+
+                Changes to be committed:
+                (use "git rm --cached <file>..." to unstage)
+                  new file: app.js
+                  new file: index.html
+
+
+                  Fncso@LAPTOP-S08
 </body>
 
 </html>
